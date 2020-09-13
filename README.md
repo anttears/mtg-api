@@ -1,2 +1,2 @@
-# mtgApi
-Api for getting collections of card data for MTG card sets
+# cardSets
+The repo for storing card data within their defined set.
