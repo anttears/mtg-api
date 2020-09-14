@@ -2,7 +2,6 @@ const cards = require('../actions/cards');
 const sets = require('../actions/sets');
 
 const getCardsFromSet = async (req, res) => {
-    console.log(req.params);
     const cardList = await cards.getCardsFromSet(req.params.setName);
     res.json(cardList).end();
 };
